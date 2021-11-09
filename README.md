@@ -28,7 +28,7 @@ Code also kicks of the Cfn stack 'Pre-Prod-PipelineLambdaService', which deploys
 
 ![](image/README/1636464382598.png)
 
-## Credits
+## Links
 
 [Enhanced CI/CD with AWS CDK - AWS Online Tech Talks](https://www.youtube.com/watch?v=1ps0Wh19MHQ)
 
