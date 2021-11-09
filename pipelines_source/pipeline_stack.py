@@ -35,17 +35,17 @@ class PipelineStack(core.Stack):
         source_artifact=source_artifact,
         cloud_assembly_artifact=cloud_assembly_artifact,
         install_command='npm install -g aws-cdk && pip install -r requirements.txt',
-        build_command='pytest unittests',
+        # build_command='pytest unittests',
         synth_command='cdk synth'
       )      
     )
 
-    # pre_prod_app = LambdaServiceStage(self, 'Pre-Prod', env={
-    #   'account': APP_ACCOUNT,
-    #   'region': REGION,
-    # })
+    pre_prod_app = LambdaServiceStage(self, 'Pre-Prod', env={
+      'account': APP_ACCOUNT,
+      'region': REGION,
+    })
 
-    # pre_prod_stage = pipeline.add_application_stage(pre_prod_app)
+    pre_prod_stage = pipeline.add_application_stage(pre_prod_app)
 
     # pre_prod_stage.add_actions(pipelines.ShellScriptAction(
     #   action_name='Integ',
