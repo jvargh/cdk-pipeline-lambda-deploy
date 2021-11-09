@@ -28,6 +28,7 @@ Code also kicks of the Cfn stack 'Pre-Prod-PipelineLambdaService', which deploys
 
 ![](image/README/1636464382598.png)
 
+<<<<<<< HEAD
 ## Links
 
 [Enhanced CI/CD with AWS CDK - AWS Online Tech Talks](https://www.youtube.com/watch?v=1ps0Wh19MHQ)
@@ -35,3 +36,8 @@ Code also kicks of the Cfn stack 'Pre-Prod-PipelineLambdaService', which deploys
 [SDK CodePipeline](https://docs.aws.amazon.com/cdk/api/latest/python/aws_cdk.aws_codepipeline.htmlhttps://docs.aws.amazon.com/cdk/api/latest/python/aws_cdk.aws_codepipeline_actions/README.htmlhttps://www.youtube.com/watch?v=1ps0Wh19MHQ)
 
 [SDK CodePipeline Actions](https://docs.aws.amazon.com/cdk/api/latest/python/aws_cdk.aws_codepipeline_actions/README.htmlhttps://www.youtube.com/watch?v=1ps0Wh19MHQ)
+=======
+## Credits
+
+[Enhanced CI/CD with AWS CDK - AWS Online Tech Talks](https://www.youtube.com/watch?v=1ps0Wh19MHQ)
+>>>>>>> 327dd21192cde241cc596eff56834039be5c0de6

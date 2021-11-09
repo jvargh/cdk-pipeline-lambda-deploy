@@ -5,7 +5,11 @@ from aws_cdk import core
 # from pipelines_source.pipeline_lambda_stack import PipelineLambdaStack
 from pipelines_source.pipeline_stack import PipelineStack
 
+<<<<<<< HEAD
 PIPELINE_ACCOUNT = '524517701320'
+=======
+PIPELINE_ACCOUNT = 'AWS Account'
+>>>>>>> 327dd21192cde241cc596eff56834039be5c0de6
 REGION = 'us-east-1'
 
 app = core.App()

@@ -6,7 +6,11 @@ from aws_cdk import pipelines
 from .pipeline_lambda_stage import LambdaServiceStage
 import aws_cdk.aws_codecommit as codecommit
 
+<<<<<<< HEAD
 APP_ACCOUNT = '524517701320'
+=======
+APP_ACCOUNT = 'AWS Account'
+>>>>>>> 327dd21192cde241cc596eff56834039be5c0de6
 REGION = 'us-east-1'
 CODECOMMIT_REPO = 'cdk_lambda_pipeline_repo'
 
