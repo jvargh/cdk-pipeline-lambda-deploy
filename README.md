@@ -1,6 +1,6 @@
 # Python CDK Pipeline for Continuous Delivery of AWS resources
 This repository contains CDK Pipelines code that implements the following
-- Deploys a self-mutating pipeline that monitors commits in the specified CodeCommit repo, to kick of build and deploy phases
+- Deploys a self-mutating pipeline that monitors commits in the specified CodeCommit repo. This in turn kicks off the build and deploy phases
 - Deploys CDK resource stack (pipeline_lambda_stack.py), which in this example is a simple Lambda function
 
 When run, code creates the Cfn stack 'cdk-lambda-pipeline-stack', which in turn creates the initial CodePipeline and updates stack on future commits.
