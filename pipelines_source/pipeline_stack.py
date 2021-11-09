@@ -59,9 +59,11 @@ class PipelineStack(core.Stack):
     #     'SERVICE_URL': pipeline.stack_output(pre_prod_app.url_output)
     #   }))
 
+    # pre_prod_stage.add_manual_approval_action(action_name="PromoteToProd")
+
     # pipeline.add_application_stage(LambdaServiceStage(self, 'Prod', env={
-    #   'account': APP_ACCOUNT,
-    #   'region': REGION,
+    #   'account': APP_ACCOUNT_PROD,
+    #   'region': REGION_PROD,
     # }))
 
 
