@@ -1,5 +1,5 @@
 from aws_cdk import core
-from  ..pipelines_source import PipelineLambdaStack
+from  pipelines_source.pipeline_lambda_stack import PipelineLambdaStack
 
 def test_lambda_handler():
   # GIVEN
